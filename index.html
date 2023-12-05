@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina</title>
+</head>
+<body>
+    <!--ENCABEZADO-->
+    <header>
+        <h1>Cursos Online</h1>
+    </header>
+    <!--MENU-->
+    <nav>
+        <ul>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        
+    </nav>
+    <!--CONTENIDO PRINCIPAL-->
+    <main>
+        <!--CURSOS A LA VENTA-->
+        <section id="cursos">
+            <h2>Cursos Disponibles</h2>
+            <div class="contenedor">
+            <ul>
+                <li><img src="img/inteligencia-artificial.png" alt="" width="250px" height="250px" margin-bottom="35px">
+                    <h2> Inteligencia artificial</h2>
+                    <a href= "https://hotmart.com/es/marketplace/productos/aprende-prompting-con-ingenieros-de-la-uba/S84365637D?ref=M86047464S" target="_blank">Descripcion del curso</a>
+                    <p>Precio US$297,00</p></li>
+
+                <li><img src="img/ce-online-tecnicas-negociacion-cierre-acuerdos.png" alt="" width="250px" height="250px" margin="35px">
+                    <h2> Ventas y Negociacion</h2>
+                    <a href="https://www.econo.unlp.edu.ar/edn/curso-ventas-y-negociacion-8303" target="_blank">Descripcion del curso</a>
+                    <p>Precio $25.000 ARS</p></li>
+
+                <li><img src="img/marketing digital.png" alt="" width="250px" height="250px" margin="35px">
+                    <h2> Marketing Digital</h2>
+                    <a href="#">Descripcion del curso</a>
+                    <p>Precio $20.000 ARS</p></li>
+
+                    <li><img src="img/FORMACIONONLINE1.png" alt="" width="250px" height="">
+                    <h2>El negocio de las uñas</h2>
+                <a href="https://hotmart.com/es/marketplace/productos/el-negocio-de-las-unas/H61127641O?sck=HOTMART_SITE_BEST_RATED" target="_blank">Descripcion del curso</a>
+            <p>Precio $31.209 ARS</p></li>
+
+            <li><img src="img/3en9.png" alt="" width="250px" height="250px" margin="35px">
+                <h2> Método inmersivo 3 en 9 - Programa Intensivo </h2>
+                <a href="#">Descripcion del curso</a>
+                <p>Precio US$250,00 </p></li>
+            </ul>
+        </div>
+        </section>
+        <!--FORMULARIO DE CONTACTO-->
+
+        <section id="contacto">
+            <form action="https://formsubmit.co/KMGozaine@hotmail.com " method="POST">
+            <h2>CONTACTANOS</h2>
+            <form class="formulario-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+
+                <label for="correo">Correo Electronico:</label>
+                <input type="email" id="correo" name="correo" required placeholder="Correo Electronico">
+
+                <label for="phone">Telefono:</label>
+                <input type="Tel" id="phone" name="phone" required placeholder="Telefono">
+
+                <label for="message">Mensaje:</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+
+                <!--<div class="form-txt">
+                    <a href="#">Politica de privacidad</a>
+                    <a href="#">Terminos y condiciones</a>
+                </div>-->
+
+                <button onclick="Enviar" type="submit" id="boton">Enviar</button>
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </section>
+    </main>
+    <!--BOTON FLOTANTE DE WPP-->
+    <div class="whatsapp-btn">
+        <a href="https://wa.me/02804026833" target="_blank">
+            <img src="img/whatsapp-logo-48.png" alt="WhatsApp">
+        </a>
+    </div>
+    <!--SCRIP DE JAVASCRIP-->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/sweetalert2.js"></script>
+    
+    
+</body>
+</html>
