@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Pagina</title>
 </head>
 <body>
@@ -26,27 +26,27 @@
             <h2>Cursos Disponibles</h2>
             <div class="contenedor">
             <ul>
-                <li><img src="img/inteligencia-artificial.png" alt="" width="250px" height="250px" margin-bottom="35px">
+                <li><img src="assets/img/inteligencia-artificial.png" alt="" width="250px" height="250px" margin-bottom="35px">
                     <h2> Inteligencia artificial</h2>
                     <a href= "https://hotmart.com/es/marketplace/productos/aprende-prompting-con-ingenieros-de-la-uba/S84365637D?ref=M86047464S" target="_blank">Descripcion del curso</a>
                     <p>Precio US$297,00</p></li>
 
-                <li><img src="img/ce-online-tecnicas-negociacion-cierre-acuerdos.png" alt="" width="250px" height="250px" margin="35px">
+                <li><img src="assets/img/ce-online-tecnicas-negociacion-cierre-acuerdos.png" alt="" width="250px" height="250px" margin="35px">
                     <h2> Ventas y Negociacion</h2>
                     <a href="https://www.econo.unlp.edu.ar/edn/curso-ventas-y-negociacion-8303" target="_blank">Descripcion del curso</a>
                     <p>Precio $25.000 ARS</p></li>
 
-                <li><img src="img/marketing digital.png" alt="" width="250px" height="250px" margin="35px">
+                <li><img src="assets/img/marketing digital.png" alt="" width="250px" height="250px" margin="35px">
                     <h2> Marketing Digital</h2>
                     <a href="#">Descripcion del curso</a>
                     <p>Precio $20.000 ARS</p></li>
 
-                    <li><img src="img/FORMACIONONLINE1.png" alt="" width="250px" height="">
+                    <li><img src="assets/img/FORMACIONONLINE1.png" alt="" width="250px" height="">
                     <h2>El negocio de las uñas</h2>
                 <a href="https://hotmart.com/es/marketplace/productos/el-negocio-de-las-unas/H61127641O?sck=HOTMART_SITE_BEST_RATED" target="_blank">Descripcion del curso</a>
             <p>Precio $31.209 ARS</p></li>
 
-            <li><img src="img/3en9.png" alt="" width="250px" height="250px" margin="35px">
+            <li><img src="assets/img/3en9.png" alt="" width="250px" height="250px" margin="35px">
                 <h2> Método inmersivo 3 en 9 - Programa Intensivo </h2>
                 <a href="#">Descripcion del curso</a>
                 <p>Precio US$250,00 </p></li>
@@ -56,9 +56,9 @@
         <!--FORMULARIO DE CONTACTO-->
 
         <section id="contacto">
-            <form action="https://formsubmit.co/KMGozaine@hotmail.com " method="POST">
-            <h2>CONTACTANOS</h2>
-            <form class="formulario-contacto">
+            <!--<form action="https://formsubmit.co/KMGozaine@hotmail.com" method="POST">-->
+            <form class="formulario-contacto" action="https://formsubmit.io/send/KMGozaine@hotmail.com" method="POST" id="contac">
+                <h2 style="text-align: center;">CONTACTANOS</h2>
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
 
@@ -75,7 +75,7 @@
                     <a href="#">Politica de privacidad</a>
                     <a href="#">Terminos y condiciones</a>
                 </div>-->
-
+                <input name="_formsubmit_id" type="text" style="display:none">
                 <button onclick="Enviar" type="submit" id="boton">Enviar</button>
 
                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
@@ -90,9 +90,9 @@
         </a>
     </div>
     <!--SCRIP DE JAVASCRIP-->
-    <script src="script.js"></script>
+    <!--<script src="script.js"></script>-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="js/sweetalert2.js"></script>
+    <script src="assets/js/sweetalert.js"></script>
     
     
 </body>
